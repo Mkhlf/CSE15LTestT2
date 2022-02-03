@@ -10,7 +10,7 @@ import org.junit.*;
 public class JavaFileTest {
     @Test
     public void test1() {
-        assertTrue(JavaFile.returnFalse());
+        assertTrue(!JavaFile.returnFalse());
 
     }
 
